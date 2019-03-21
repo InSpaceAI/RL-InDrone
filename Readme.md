@@ -1,10 +1,10 @@
 # **Unity Drone Environments for RL**
 
-<img src="./resrc/drone_flight_iso.gif" width="400" />      <img src="./resrc/drone_juggling_iso.gif" width="400" />
+<img src="./resrc/drone_flight_iso.gif" width="400" />  <img src="./resrc/drone_juggling_iso.gif" width="400" />
 
 ## **About**
 
-There are drone environments made in **Inspace**. You can test your algorithm in these environments  with default settings. Besides, you can modify some settings(state, action, reward, ...) too. Mostly modify within *DroneAgent.cs* script file. And You can make any environments with this drone agent.
+There are drone environments made by **Inspace**. You can test your algorithm in these environments  with default settings. Besides, you can modify some settings(state, action, reward, ...) too. Mostly modify within *DroneAgent.cs* script file. And You can make any environments with this drone agent.
 
 ## **Environment** 
 
