@@ -5,7 +5,7 @@
 
 ## **About**
 
-There are dorne environments made in **Inspace**. You can test your algorithm in these environments  with default settings. Besides, you can modify some settings(state, action, reward, ...) too. Mostly modify within *DroneAgent.cs* script file. And You can make any environments with this drone agent.
+There are drone environments made in **Inspace**. You can test your algorithm in these environments  with default settings. Besides, you can modify some settings(state, action, reward, ...) too. Mostly modify within *DroneAgent.cs* script file. And You can make any environments with this drone agent.
 
 ## **Environment** 
 
