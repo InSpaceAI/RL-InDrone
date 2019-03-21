@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a4bf4528ac3277f48b07d3faf1b17ca8
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400002: Assets/DroneJuggling/TFModels/DJLearningBrain.nn
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 83221ad3db87f4b3b91b041047cb2bc5, type: 3}

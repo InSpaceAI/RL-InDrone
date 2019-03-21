@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: f3cec741912702a4ca2f3a67c00e65ce
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400002: Assets/DroneFlight/TFModels/DFLearningBrain.nn
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 83221ad3db87f4b3b91b041047cb2bc5, type: 3}
