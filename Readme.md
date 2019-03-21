@@ -1,7 +1,7 @@
 # **Unity Drone Environment for RL**
 
-<img src="./resrc/drone_flight_iso.gif" style="width:200px">
-<img src="./resrc/drone_juggling_iso.gif" style="width:200px">
+<img src="./resrc/drone_flight_iso.gif" width="250" />
+<img src="./resrc/drone_juggling_iso.gif" width="250" />
 
 ## **About**
 
@@ -10,12 +10,12 @@ There are drone environments made in **Inspace**. You can test your algorithm in
 ## **Environment** 
 
 * Windows10 64bit
-* Unity 2018.3.0f2 Personal
+* Unity 2018.3.8f2 Personal
 * Unity ML-Agents v0.7
 * VisualStudio 2017
 
 ## **Drone Flight Env**
-<center><img src="./resrc/drone_flight_iso.gif" style="width:400px"></center>
+<center><img src="./resrc/drone_flight_iso.gif" width="400" /></center>
 
 ### Goal
  - To reach the white ball
@@ -34,7 +34,7 @@ There are drone environments made in **Inspace**. You can test your algorithm in
  - Δ(Distance from Drone to ball)
 
 ## **Drone Juggling Env**
-<center><img src="./resrc/drone_juggling_iso.gif" style="width:400px"></center>
+<center><img src="./resrc/drone_juggling_iso.gif" width="400" /></center>
 
 ### Goal
  - Do not miss the red ball while flying
