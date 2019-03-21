@@ -37,7 +37,7 @@ There are drone environments made in **Inspace**. You can test your algorithm in
 <center><img src="./resrc/drone_juggling_iso.gif" width="500" /></center>
 
 ### Goal
- - Do not miss the red ball while flying
+ - To do not miss the red ball while flying
 
 ### State
  - Vector from drone to ball
