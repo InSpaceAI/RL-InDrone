@@ -13,7 +13,7 @@ There are drone environments made by **Inspace**. You can test your algorithm in
 * Unity ML-Agents v0.7
 * VisualStudio 2017
 
-## **Drone Flight Env**
+## **Drone Flight Environment**
 <center><img src="./resrc/drone_flight_iso.gif" width="500" /></center>
 
 ### Goal
@@ -32,7 +32,7 @@ There are drone environments made by **Inspace**. You can test your algorithm in
 ### Reward
  - Δ(Distance from Drone to ball)
 
-## **Drone Juggling Env**
+## **Drone Juggling Environment**
 <center><img src="./resrc/drone_juggling_iso.gif" width="500" /></center>
 
 ### Goal
