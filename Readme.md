@@ -14,7 +14,7 @@ There are drone environments made by **Inspace**. You can test your algorithm in
 * VisualStudio 2017
 
 ## **Drone Flight Environment**
-<img src="./resrc/drone_flight_iso.gif" width="500" align="center"/>
+<img src="./resrc/drone_flight_iso.gif" width="800"/>
 
 ### Goal
  - To reach the white ball
@@ -33,7 +33,7 @@ There are drone environments made by **Inspace**. You can test your algorithm in
  - Δ(Distance from Drone to ball)
 
 ## **Drone Juggling Environment**
-<img src="./resrc/drone_juggling_iso.gif" width="500" align="center"/>
+<img src="./resrc/drone_juggling_iso.gif" width="800"/>
 
 ### Goal
  - To do not miss the red ball while flying
