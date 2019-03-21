@@ -61,7 +61,7 @@ There are drone environments made by **Inspace**. You can test your algorithm in
  You can test your algorithm with *notebooks/getting-started.ipynb*.
 
 ### Player Mode
- You can play these environments in "Player Mode" with *play/DRONEENV/DRONEENV.exe* 
+ You can control the agent using a keyboard with *play/DRONEENV/DRONEENV.exe* 
 
 ### Player Control
 
