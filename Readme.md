@@ -1,6 +1,6 @@
 # **Unity Drone Environment for RL**
 
-<img src="./resrc/drone_flight_iso.gif" width="450" /> <img src="./resrc/drone_juggling_iso.gif" width="450" />
+<img src="./resrc/drone_flight_iso.gif" width="400" />  <img src="./resrc/drone_juggling_iso.gif" width="400" />
 
 ## **About**
 
