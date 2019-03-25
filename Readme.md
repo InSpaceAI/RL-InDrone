@@ -27,7 +27,7 @@ There are drone environments made by **Inspace**. You can test your algorithm in
  - Angular velocity vector of drone
 
 ### Action
- - Value of each propellers lift
+ - Value of each propellers lift(Continuous)
 
 ### Reward
  - Δ(Distance from Drone to ball)
@@ -48,7 +48,7 @@ There are drone environments made by **Inspace**. You can test your algorithm in
  - Normalized vector of Δ(ball position)
  
 ### Action
- - Value of each propellers lift
+ - Value of each propellers lift(Continuous)
 
 ### Reward
  - y-axis value of up-vector / CONSTANT
