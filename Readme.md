@@ -4,7 +4,7 @@
 
 ## **About**
 
-There are drone environments made by __**Inspace**__. You can test your algorithm in these environments  with default settings. Besides, you can modify some settings(state, action, reward, ...) too. Mostly modify within __*DroneAgent.cs*__ script file. And You can make any environments with this drone agent. If you want to see another environments, click [here](https://www.youtube.com/channel/UCZx739AbunG2bGD5t0sNAhw/videos)
+There are drone environments made by **Inspace**. You can test your algorithm in these environments  with default settings. Besides, you can modify some settings(state, action, reward, ...) too. Mostly modify within __*DroneAgent.cs*__ script file. And You can make any environments with this drone agent. If you want to see another environments, click [here](https://www.youtube.com/channel/UCZx739AbunG2bGD5t0sNAhw/videos)
 
 ## **Environment** 
 
@@ -58,10 +58,10 @@ There are drone environments made by __**Inspace**__. You can test your algorith
 ## **Getting Started**
 
 ### RL algorithm test
- You can test your algorithm with *notebooks/getting-started.ipynb*.
+ You can test your algorithm with __*notebooks/getting-started.ipynb*__.
 
 ### Player Mode
- You can control the agent using a keyboard with *play/DRONEENV/DRONEENV.exe* 
+ You can control the agent using a keyboard with __*play/DRONEENV/DRONEENV.exe*__. 
 
 ### Player Control
 
