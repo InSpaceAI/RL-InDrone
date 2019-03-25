@@ -56,7 +56,7 @@ There are drone environments made by **InSpace**. You can test your algorithm in
  - 1 / (CONSTANT + distance from current ball position to ball initial position)
 
 ## **Getting Started**
- If you want to know about Unity ML-Agents more, click [here](https://github.com/hyunho1027/Unity_ML_Agents_Tutorial)
+ To learn about more Unity ML-Agents, click [here](https://github.com/hyunho1027/Unity_ML_Agents_Tutorial)
 ### RL algorithm test
  You can test your algorithm with __*notebooks/getting-started.ipynb*__.
 
