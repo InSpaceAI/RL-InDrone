@@ -67,7 +67,7 @@ There are drone environments made by **Inspace**. You can test your algorithm in
 
 | *Keyboard Key* | *Action* |
 | --- | --- |
-| Q | Add propulsion to the first propeller.  |
-| W | Add propulsion to the second propeller |
-| A | Add propulsion to the third propeller |
-| S | Add propulsion to the fourth propeller |
+| Q | Add thrust to the first propeller.  |
+| W | Add thrust to the second propeller |
+| A | Add thrust to the third propeller |
+| S | Add thrust to the fourth propeller |
