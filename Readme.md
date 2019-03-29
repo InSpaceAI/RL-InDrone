@@ -4,7 +4,7 @@
 
 ## **About**
 
-There are drone environments made by **InSpace**. You can test your algorithm in these environments with default settings. Besides, you can modify some settings(state, action, reward, ...) too. Most will be modified within __*DroneAgent.cs*__ script file. And You can make any environments with this drone agent. If you want to see another environments, click [here](https://www.youtube.com/channel/UCZx739AbunG2bGD5t0sNAhw/videos)
+There are drone environments made by **InSpace**. You can test your algorithm in these environments with default settings. Besides, you can change some settings(state, action, reward, ...) too. Most will be changed within __*DroneAgent.cs*__ script file. And You can make any environments with this drone agent. If you want to see another environments, click [here](https://www.youtube.com/channel/UCZx739AbunG2bGD5t0sNAhw/videos)
 
 ## **Environment** 
 
@@ -56,7 +56,13 @@ There are drone environments made by **InSpace**. You can test your algorithm in
  - 1 / (CONSTANT + distance from current ball position to ball initial position)
 
 ## **Getting Started**
+
+### Change Setting & Make Environment
+If you want to change setting(state, action, reward) or make new environment, open __*UnitySDK*__ with unity  
+(Drone environments are in __*Assets*__)  
+
 If you need a tutorial about Unity ML-Agents, click [here](https://github.com/hyunho1027/Unity_ML_Agents_Tutorial)
+
 ### RL algorithm test
  You can test your algorithm with __*notebooks/getting-started.ipynb*__.
 
