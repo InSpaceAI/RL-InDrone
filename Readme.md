@@ -59,7 +59,7 @@ There are drone environments made by **InSpace**. You can test your algorithm in
 
 ### Change Setting & Make Environment
 If you want to change setting(state, action, reward) or make new environment, open __*UnitySDK*__ with Unity.  
-(Drone environments are located in __*Assets/*__.)  
+(Drone environments are located in __*Assets/DRONEENV*__.)  
 
 If you need a tutorial about Unity ML-Agents, click [here](https://github.com/hyunho1027/Unity_ML_Agents_Tutorial)
 
