@@ -9,8 +9,8 @@ There are drone environments made by **InSpace**. You can test your algorithm in
 ## **Environment** 
 
 * Windows10 64bit
-* Unity 2018.3.8f2 Personal
-* Unity ML-Agents v0.7
+* Unity 2019.1.0f2 Personal
+* Unity ML-Agents v0.8
 * VisualStudio 2017
 
 ## **Drone Flight Environment**
