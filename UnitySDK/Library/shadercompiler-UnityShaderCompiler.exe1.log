@@ -1,3 +1,18 @@
-Base path: C:/Program Files/Unity/Editor/Data
+Base path: C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data
 Cmd: initializeCompiler
-Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=8324 outsize=1701 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4413 outsize=1857 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=22218 outsize=3017 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=22218 outsize=1861 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15584 outsize=1341 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15584 outsize=1353 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15584 outsize=1749 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1596 outsize=2002 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH _EMISSION _SPECULARHIGHLIGHTS_OFF _GLOSSYREFLECTIONS_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
