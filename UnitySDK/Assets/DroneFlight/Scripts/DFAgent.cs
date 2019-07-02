@@ -70,17 +70,12 @@ public class DFAgent : Agent
         AddVectorObs(rbDrone.angularVelocity);
     }
 
-    float act0;
-    float act1;
-    float act2;
-    float act3;
-
     public override void AgentAction(float[] vectorAction, string textAction)
     {
-		act0 = Mathf.Clamp(vectorAction[0], 0f, 1f);
-		act1 = Mathf.Clamp(vectorAction[1], 0f, 1f);
-		act2 = Mathf.Clamp(vectorAction[2], 0f, 1f);
-		act3 = Mathf.Clamp(vectorAction[3], 0f, 1f);
+		var act0 = Mathf.Clamp(vectorAction[0], 0f, 1f);
+		var act1 = Mathf.Clamp(vectorAction[1], 0f, 1f);
+		var act2 = Mathf.Clamp(vectorAction[2], 0f, 1f);
+		var act3 = Mathf.Clamp(vectorAction[3], 0f, 1f);
 
 		rb1.AddForce(pro1.transform.up * (act0 * 10));
 		rb2.AddForce(pro2.transform.up * (act1 * 10));
