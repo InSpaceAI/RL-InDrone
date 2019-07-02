@@ -10,9 +10,9 @@ public class DFAgent : Agent
     Vector3 goalInitPos;
     Quaternion InitRot;
 
-    Vector3 dronInitPos;
-    Quaternion dronInitRot;
-    Rigidbody rbDron;
+    Vector3 droneInitPos;
+    Quaternion droneInitRot;
+    Rigidbody rbDrone;
 
     public GameObject pro1;
     public GameObject pro2;
@@ -41,9 +41,9 @@ public class DFAgent : Agent
     {
         goalInitPos = goal.transform.position;
 
-        dronInitPos = gameObject.transform.position;
-        dronInitRot = gameObject.transform.rotation;
-        rbDron = gameObject.GetComponent<Rigidbody>();
+        droneInitPos = gameObject.transform.position;
+        droneInitRot = gameObject.transform.rotation;
+        rbDrone = gameObject.GetComponent<Rigidbody>();
 
         pro1InitPos = pro1.transform.position;
         pro2InitPos = pro2.transform.position;
@@ -66,8 +66,8 @@ public class DFAgent : Agent
         AddVectorObs(goal.transform.position - gameObject.transform.position);
         AddVectorObs(gameObject.transform.up);
         AddVectorObs(gameObject.transform.forward);
-        AddVectorObs(rbDron.velocity);
-        AddVectorObs(rbDron.angularVelocity);
+        AddVectorObs(rbDrone.velocity);
+        AddVectorObs(rbDrone.angularVelocity);
     }
 
     float act0;
@@ -93,9 +93,9 @@ public class DFAgent : Agent
             Done();
             //Debug.Log("Success.");
         }
-		else if (Mathf.Abs(gameObject.transform.position.x - dronInitPos.x) > 6f ||
-			Mathf.Abs(gameObject.transform.position.z - dronInitPos.z) > 6f ||
-			gameObject.transform.position.y - dronInitPos.y > 6f ||
+		else if (Mathf.Abs(gameObject.transform.position.x - droneInitPos.x) > 6f ||
+			Mathf.Abs(gameObject.transform.position.z - droneInitPos.z) > 6f ||
+			gameObject.transform.position.y - droneInitPos.y > 6f ||
 			gameObject.transform.position.y < 0.1f ||
 			gameObject.transform.up.y < 0.5f)
 		{
@@ -115,10 +115,10 @@ public class DFAgent : Agent
 
     public override void AgentReset()
     {
-        gameObject.transform.position = dronInitPos;
-        gameObject.transform.rotation = dronInitRot;
-        rbDron.velocity = Vector3.zero;
-        rbDron.angularVelocity = Vector3.zero;
+        gameObject.transform.position = droneInitPos;
+        gameObject.transform.rotation = droneInitRot;
+        rbDrone.velocity = Vector3.zero;
+        rbDrone.angularVelocity = Vector3.zero;
 
         rb1.velocity = Vector3.zero;
         rb2.velocity = Vector3.zero;

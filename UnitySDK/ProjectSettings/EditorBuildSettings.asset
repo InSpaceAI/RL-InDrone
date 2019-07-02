@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/DroneFlight/Scenes/DroneFlight.unity
     guid: 68fcc424878180c41b950ad9d5ce1443
-  - enabled: 1
+  - enabled: 0
     path: Assets/DroneJuggling/Scenes/DroneJuggling.unity
     guid: 8a704854602174d44b9b43b1970d83b0
   - enabled: 0
-    path: Assets/ML-Agents/HHProjects/DroneObstacle/Scenes/DroneObstacle.unity
-    guid: a4efffb82033acd4a8bc22d087483b7f
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/DroneObstacle/Scenes/DroneObstacle.unity
+    guid: d415ffdb5914e7748ba293c7a1177a08
   m_configObjects: {}

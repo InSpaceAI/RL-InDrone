@@ -12,9 +12,9 @@ public class DJAgent : Agent
 	Vector3 ballPrePos;
 	Vector3 ballCurPos;
 
-	Vector3 dronInitPos;
-	Quaternion dronInitRot;
-	Rigidbody rbDron;
+	Vector3 droneInitPos;
+	Quaternion droneInitRot;
+	Rigidbody rbDrone;
 
 	public GameObject pro1;
 	public GameObject pro2;
@@ -41,9 +41,9 @@ public class DJAgent : Agent
 		ballInitPos = ball.transform.position;
 		rbBall = ball.GetComponent<Rigidbody>();
 
-		dronInitPos = gameObject.transform.position;
-		dronInitRot = gameObject.transform.rotation;
-		rbDron = gameObject.GetComponent<Rigidbody>();
+		droneInitPos = gameObject.transform.position;
+		droneInitRot = gameObject.transform.rotation;
+		rbDrone = gameObject.GetComponent<Rigidbody>();
 
 		pro1InitPos = pro1.transform.position;
 		pro2InitPos = pro2.transform.position;
@@ -65,11 +65,11 @@ public class DJAgent : Agent
 	public override void CollectObservations()
 	{
 		AddVectorObs(ball.transform.position - gameObject.transform.position);
-		AddVectorObs(gameObject.transform.position - dronInitPos);
+		AddVectorObs(gameObject.transform.position - droneInitPos);
 		AddVectorObs(gameObject.transform.up);
 		AddVectorObs(gameObject.transform.forward);
-		AddVectorObs(rbDron.velocity);
-		AddVectorObs(rbDron.angularVelocity);
+		AddVectorObs(rbDrone.velocity);
+		AddVectorObs(rbDrone.angularVelocity);
 		AddVectorObs((ballCurPos - ballPrePos).normalized);
 	}
 
@@ -92,7 +92,7 @@ public class DJAgent : Agent
 
 		if (ball.transform.position.y < gameObject.transform.position.y ||
 			gameObject.transform.position.y < 0.2f ||
-			(gameObject.transform.position - dronInitPos).magnitude > 3f)
+			(gameObject.transform.position - droneInitPos).magnitude > 3f)
 		{
 			SetReward(-1);
 			Done();
@@ -104,7 +104,7 @@ public class DJAgent : Agent
 			ballCurPos = ball.transform.position;
 
 			var reward = (gameObject.transform.up.y / 10f ) ;
-			reward += (1f/(10f +(gameObject.transform.position - dronInitPos).magnitude));
+			reward += (1f/(10f +(gameObject.transform.position - droneInitPos).magnitude));
 			reward += (1f/(10f +(ball.transform.position - ballInitPos).magnitude));
 
 			SetReward(reward);
@@ -113,10 +113,10 @@ public class DJAgent : Agent
 
 	public override void AgentReset()
 	{
-		gameObject.transform.position = dronInitPos;
-		gameObject.transform.rotation = dronInitRot;
-		rbDron.velocity = Vector3.zero;
-		rbDron.angularVelocity = Vector3.zero;
+		gameObject.transform.position = droneInitPos;
+		gameObject.transform.rotation = droneInitRot;
+		rbDrone.velocity = Vector3.zero;
+		rbDrone.angularVelocity = Vector3.zero;
 
 		rb1.velocity = Vector3.zero;
 		rb2.velocity = Vector3.zero;
