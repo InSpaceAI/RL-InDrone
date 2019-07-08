@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/DroneObstacle/Scenes/DroneObstacle.unity
+- path: Assets/DroneJuggling/Scenes/DroneJuggling.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

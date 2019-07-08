@@ -437,6 +437,26 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 374049829672975092, guid: 19c9728c45ee8034886700ac310a4afd,
+        type: 3}
+      propertyPath: moter1
+      value: 
+      objectReference: {fileID: 7063989773507683416}
+    - target: {fileID: 374049829672975092, guid: 19c9728c45ee8034886700ac310a4afd,
+        type: 3}
+      propertyPath: moter2
+      value: 
+      objectReference: {fileID: 7063989773507683415}
+    - target: {fileID: 374049829672975092, guid: 19c9728c45ee8034886700ac310a4afd,
+        type: 3}
+      propertyPath: moter3
+      value: 
+      objectReference: {fileID: 7063989773507683414}
+    - target: {fileID: 374049829672975092, guid: 19c9728c45ee8034886700ac310a4afd,
+        type: 3}
+      propertyPath: moter4
+      value: 
+      objectReference: {fileID: 7063989773507683412}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19c9728c45ee8034886700ac310a4afd, type: 3}
 --- !u!1 &7063989773507683412 stripped

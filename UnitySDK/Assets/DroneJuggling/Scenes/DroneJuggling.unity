@@ -432,91 +432,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8582402525668740959, guid: 57a38392b84b8e44baca8503f61953c6,
+        type: 3}
+      propertyPath: moter3
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582402525668740959, guid: 57a38392b84b8e44baca8503f61953c6,
+        type: 3}
+      propertyPath: moter1
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582402525668740959, guid: 57a38392b84b8e44baca8503f61953c6,
+        type: 3}
+      propertyPath: moter2
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582402525668740959, guid: 57a38392b84b8e44baca8503f61953c6,
+        type: 3}
+      propertyPath: moter4
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254670231934463027, guid: 57a38392b84b8e44baca8503f61953c6,
+        type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 8582402527176354596}
+    - target: {fileID: 2892116893269094981, guid: 57a38392b84b8e44baca8503f61953c6,
+        type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 8582402527176354596}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57a38392b84b8e44baca8503f61953c6, type: 3}
 --- !u!1 &8582402527176354596 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8959425851169423744, guid: 57a38392b84b8e44baca8503f61953c6,
+  m_CorrespondingSourceObject: {fileID: 8959425852094990456, guid: 57a38392b84b8e44baca8503f61953c6,
     type: 3}
   m_PrefabInstance: {fileID: 8582402527176354595}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &8582402527176354597 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 8959425852137569782, guid: 57a38392b84b8e44baca8503f61953c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 8582402527176354595}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8582402527176354598 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8959425850350165573, guid: 57a38392b84b8e44baca8503f61953c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 8582402527176354595}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8582402527176354599 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8959425851204013815, guid: 57a38392b84b8e44baca8503f61953c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 8582402527176354595}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8582402527176354600 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8959425851327009239, guid: 57a38392b84b8e44baca8503f61953c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 8582402527176354595}
-  m_PrefabAsset: {fileID: 0}
---- !u!138 &8582402527176354601
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582402527176354596}
-  m_ConnectedBody: {fileID: 8582402527176354597}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &8582402527176354602
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582402527176354598}
-  m_ConnectedBody: {fileID: 8582402527176354597}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &8582402527176354603
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582402527176354599}
-  m_ConnectedBody: {fileID: 8582402527176354597}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &8582402527176354604
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582402527176354600}
-  m_ConnectedBody: {fileID: 8582402527176354597}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1

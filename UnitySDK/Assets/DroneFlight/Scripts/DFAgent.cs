@@ -14,20 +14,10 @@ public class DFAgent : Agent
     Quaternion droneInitRot;
     Rigidbody rbDrone;
 
-    public GameObject pro1;
-    public GameObject pro2;
-    public GameObject pro3;
-    public GameObject pro4;
-
-    Vector3 pro1InitPos;
-    Vector3 pro2InitPos;
-    Vector3 pro3InitPos;
-    Vector3 pro4InitPos;
-
-    Quaternion pro1InitRot;
-    Quaternion pro2InitRot;
-    Quaternion pro3InitRot;
-    Quaternion pro4InitRot;
+    public GameObject moter1;
+    public GameObject moter2;
+    public GameObject moter3;
+    public GameObject moter4;
 
     Rigidbody rb1;
     Rigidbody rb2;
@@ -44,21 +34,11 @@ public class DFAgent : Agent
         droneInitPos = gameObject.transform.position;
         droneInitRot = gameObject.transform.rotation;
         rbDrone = gameObject.GetComponent<Rigidbody>();
-
-        pro1InitPos = pro1.transform.position;
-        pro2InitPos = pro2.transform.position;
-        pro3InitPos = pro3.transform.position;
-        pro4InitPos = pro4.transform.position;
-
-        pro1InitRot = pro1.transform.rotation;
-        pro2InitRot = pro2.transform.rotation;
-        pro3InitRot = pro3.transform.rotation;
-        pro4InitRot = pro4.transform.rotation;
-
-        rb1 = pro1.GetComponent<Rigidbody>();
-        rb2 = pro2.GetComponent<Rigidbody>();
-        rb3 = pro3.GetComponent<Rigidbody>();
-        rb4 = pro4.GetComponent<Rigidbody>();
+		
+        rb1 = moter1.GetComponent<Rigidbody>();
+        rb2 = moter2.GetComponent<Rigidbody>();
+        rb3 = moter3.GetComponent<Rigidbody>();
+        rb4 = moter4.GetComponent<Rigidbody>();
     }
 
     public override void CollectObservations()
@@ -77,10 +57,10 @@ public class DFAgent : Agent
 		var act2 = Mathf.Clamp(vectorAction[2], 0f, 1f);
 		var act3 = Mathf.Clamp(vectorAction[3], 0f, 1f);
 
-		rb1.AddForce(pro1.transform.up * (act0 * 10));
-		rb2.AddForce(pro2.transform.up * (act1 * 10));
-		rb3.AddForce(pro3.transform.up * (act2 * 10));
-		rb4.AddForce(pro4.transform.up * (act3 * 10));
+		rb1.AddForce(moter1.transform.up * (act0 * 10));
+		rb2.AddForce(moter2.transform.up * (act1 * 10));
+		rb3.AddForce(moter3.transform.up * (act2 * 10));
+		rb4.AddForce(moter4.transform.up * (act3 * 10));
 
 		if ((goal.transform.position - gameObject.transform.position).magnitude < 0.5f)
         {
@@ -123,16 +103,6 @@ public class DFAgent : Agent
         rb2.angularVelocity = Vector3.zero;
         rb3.angularVelocity = Vector3.zero;
         rb4.angularVelocity = Vector3.zero;
-
-        pro1.transform.position = pro1InitPos;
-        pro2.transform.position = pro2InitPos;
-        pro3.transform.position = pro3InitPos;
-        pro4.transform.position = pro4InitPos;
-
-        pro1.transform.rotation = pro1InitRot;
-        pro2.transform.rotation = pro2InitRot;
-        pro3.transform.rotation = pro3InitRot;
-        pro4.transform.rotation = pro4InitRot;
 
         goal.transform.position = goalInitPos +  new Vector3(Random.Range(-5f,5f),Random.Range(-5f,5f),Random.Range(-5f,5f));
 
