@@ -1,22 +1,26 @@
-Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.0a6/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.0a6/Editor/Data/PlaybackEngines'
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.0b4/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.0b4/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=8324 outsize=1789 ok=1
+  api=4 insize=8324 outsize=1476 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=4413 outsize=1835 ok=1
+  api=4 insize=4413 outsize=2271 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=22218 outsize=1416 ok=1
+  api=4 insize=22218 outsize=1494 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=22218 outsize=1449 ok=1
+  api=4 insize=22218 outsize=1595 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=22218 outsize=1344 ok=1
+  api=4 insize=22218 outsize=1296 ok=1
 Cmd: compileComputeKernel
   api=4 insize=22218 outsize=1831 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=15584 outsize=1306 ok=1
+  api=4 insize=15584 outsize=1426 ok=1
 Cmd: compileComputeKernel
-  api=4 insize=15584 outsize=1273 ok=1
+  api=4 insize=15584 outsize=1345 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15584 outsize=1699 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=11059 outsize=2627 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1596 outsize=2002 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH _EMISSION _SPECULARHIGHLIGHTS_OFF _GLOSSYREFLECTIONS_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+  api=4 type=0 insize=1602 outsize=2002 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
 
 Quitting shader compiler process

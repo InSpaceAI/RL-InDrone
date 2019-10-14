@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5996940104671191921}
   - component: {fileID: 5996940104671191922}
   - component: {fileID: 5996940104671191923}
+  - component: {fileID: 2352232099725263304}
   m_Layer: 0
   m_Name: Moter4
   m_TagString: Untagged
@@ -110,6 +111,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!138 &2352232099725263304
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996940104671191916}
+  m_ConnectedBody: {fileID: 5996940105651663355}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &5996940105006103364
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +231,7 @@ GameObject:
   - component: {fileID: 5996940105180364773}
   - component: {fileID: 5996940105180364774}
   - component: {fileID: 5996940105180364775}
+  - component: {fileID: 1949233910558593010}
   m_Layer: 0
   m_Name: Moter1
   m_TagString: Untagged
@@ -313,6 +329,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!138 &1949233910558593010
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996940105180364768}
+  m_ConnectedBody: {fileID: 5996940105651663355}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &5996940105651663349
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,6 +622,7 @@ GameObject:
   - component: {fileID: 5996940106122177282}
   - component: {fileID: 5996940106122177283}
   - component: {fileID: 5996940106122177340}
+  - component: {fileID: 964821057817749474}
   m_Layer: 0
   m_Name: Moter3
   m_TagString: Untagged
@@ -689,6 +720,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!138 &964821057817749474
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996940106122177341}
+  m_ConnectedBody: {fileID: 5996940105651663355}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &5996940106518070987
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +747,7 @@ GameObject:
   - component: {fileID: 5996940106518070984}
   - component: {fileID: 5996940106518070985}
   - component: {fileID: 5996940106518070986}
+  - component: {fileID: 5494784343749588954}
   m_Layer: 0
   m_Name: Moter2
   m_TagString: Untagged
@@ -799,3 +845,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!138 &5494784343749588954
+FixedJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996940106518070987}
+  m_ConnectedBody: {fileID: 5996940105651663355}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
